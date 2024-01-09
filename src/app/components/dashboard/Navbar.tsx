@@ -13,7 +13,7 @@ const Navbar = () => (
         <span className="text-[#4D4D4D]">How it works</span>
       </div>
     </div>
-    <div className="bg-[#F2F2F2] w-[400px] rounded-md flex items-center gap-2 py-[9px] px-4">
+    <div className="bg-[#F2F2F2] w-[400px] rounded-md flex items-center gap-2 py-[9px] px-4 border active:border-black ring-0">
       <Image src={searchIcon} height={16} width={16} alt="Search icon" />
       <input
         type="text"

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import searchIcon from "@/../../public/images/svg/search.svg";
 import downloadIcon from "@/../../public/images/svg/download.svg";
-import dropDownIcon from "@/../../public/images/svg/dropDown.svg";
 import sortingIcon from "@/../../public/images/svg/sorting.svg";
 import exclamationIcon from "@/../../public/images/svg/exclamation.svg";
 import arrowDownIcon from "@/../../public/images/svg/arrowDown.svg";
@@ -47,7 +46,7 @@ const Transactions: FC = () => (
                     <div className="flex flex-1 font-medium">Order Id</div>
                     <div className="flex flex-1 font-medium gap-1">
                         <span>Order Date</span>
-                        <Image src={dropDownIcon} height={10} width={10} alt="Triangle icon" />
+                        <Image src={arrowDownIcon} height={10} width={10} alt="Triangle icon" />
                     </div>
                     <div className="flex flex-1 justify-end font-medium">Order amount</div>
                     <div className="flex flex-1 justify-end font-medium gap-1">

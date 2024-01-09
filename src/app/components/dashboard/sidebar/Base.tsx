@@ -3,8 +3,8 @@ import walletIcon from "@/../../public/images/svg/walletIcon.svg"
 
 const Base = () => {
     return (
-        <div className="bg-[#353C53] py-[6px] px-3 flex items-center gap-3 rounded w-full">
-            <div className="p-[6px] bg-white/10 rounded">
+        <div className="bg-[#353C53] cursor-grab py-[6px] px-3 flex items-center gap-3 rounded w-full">
+            <div className="p-[6px]  bg-white/10 rounded">
                 <Image src={walletIcon} alt="wallet" width={24} height={24} />
             </div>
             <div className="flex flex-col gap-[2px]">
