@@ -1,10 +1,13 @@
-import Image from 'next/image'
-import Navbar from './components/Navbar'
+import Dashboard from "./components/dashboard/Dashboard"
+import Sidebar from "./components/dashboard/sidebar/Sidebar"
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <main className="flex h-screen">
+      <div className="hidden sm:block">
+        <Sidebar />
+      </div>
+    <Dashboard />
+    </main>
   )
 }

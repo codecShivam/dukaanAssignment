@@ -1,8 +1,8 @@
 import Image from "next/image";
-import helpIcon from "../../../public/images/svg/help.svg";
-import searchIcon from "../../../public/images/svg/search.svg";
-import voiceIcon from "../../../public/images/svg/voice.svg";
-import moreOptionsIcon from "../../../public/images/svg/moreOptions.svg";
+import helpIcon from "@/../../public/images/svg/help.svg"
+import searchIcon from "@/../../public/images/svg/search.svg";
+import voiceIcon from "@/../../public/images/svg/voice.svg";
+import moreOptionsIcon from "@/../../public/images/svg/moreOptions.svg";
 
 const Navbar = () => (
   <div className="bg-white py-3 px-8 flex items-center gap-2 sm:gap-4 border-b border-[#D9D9D9]">
