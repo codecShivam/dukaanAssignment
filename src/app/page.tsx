@@ -7,7 +7,7 @@ export default function Home() {
       <div className="hidden sm:block">
         <Sidebar />
       </div>
-    <Dashboard />
+      <Dashboard />
     </main>
   )
 }
