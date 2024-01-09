@@ -1,12 +1,12 @@
 import { FC } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import searchIcon from "./images/search.svg";
-import sortIcon from "./images/sort.svg";
-import downloadIcon from "./images/download.svg";
-import arrowDownIcon from "./images/arrow-down.svg";
-import exclamationIcon from "./images/exclamation.svg";
-import triangleIcon from "./images/triangle.svg";
+import searchIcon from "@/../../public/images/svg/search.svg";
+import downloadIcon from "@/../../public/images/svg/download.svg";
+import dropDownIcon from "@/../../public/images/svg/dropDown.svg";
+import sortingIcon from "@/../../public/images/svg/sorting.svg";
+import exclamationIcon from "@/../../public/images/svg/exclamation.svg";
+import arrowDownIcon from "@/../../public/images/svg/arrowDown.svg";
 
 interface TransactionItem {
     orderId: number;
@@ -34,7 +34,7 @@ const Transactions: FC = () => (
                 <div className="flex items-center gap-3">
                     <button className="flex items-center min-w-4 hover:bg-slate-100 bg-white gap-[6px] border rounded border-[#D9D9D9] px-3 py-[6px] w-fit">
                         <span>Sort</span>
-                        <Image src={sortIcon} height={16} width={16} alt="Sort icon" />
+                        <Image src={sortingIcon} height={16} width={16} alt="Sort icon" />
                     </button>
                     <button className="flex items-center min-w-5 hover:bg-slate-100 bg-white gap-2 border rounded border-[#D9D9D9] p-2 w-fit">
                         <Image src={downloadIcon} height={20} width={20} alt="Download icon" />
@@ -47,7 +47,7 @@ const Transactions: FC = () => (
                     <div className="flex flex-1 font-medium">Order Id</div>
                     <div className="flex flex-1 font-medium gap-1">
                         <span>Order Date</span>
-                        <Image src={triangleIcon} height={10} width={10} alt="Triangle icon" />
+                        <Image src={dropDownIcon} height={10} width={10} alt="Triangle icon" />
                     </div>
                     <div className="flex flex-1 justify-end font-medium">Order amount</div>
                     <div className="flex flex-1 justify-end font-medium gap-1">
