@@ -1,3 +1,4 @@
+import Base from "./Base";
 import Heading from "./Heading";
 import Menu from "./Menu";
 
@@ -8,6 +9,7 @@ const Sidebar = () => {
                 <Heading />
                 <Menu />
             </div>
+            <Base />
         </div>
     );
 }
